@@ -1,0 +1,16 @@
+///  Difference between HTTP1.1 vs HTTP2 ///
+
+HTTP 1.1 performs multi(6) request one by one in a single TCP connection so it performed well. when it compares with the older version. but what happened is, after years passes they needs much more faster one so they created HTTP 2 and it can give multiple requests at a same time in a single TCP connection
+
+HTTP 1.1 - It can send 6 requests in a single TCP connection (Three way handshake)
+HTTP 2 - It can send multiple connections for 2 seconds in a single TCP connection (Three way handshake)
+
+
+
+
+/// objects and its internal representation in Javascript ///
+
+* Objects are enclosed with curly brackets
+* It have keys and values within the curly brackets
+* the format of object was - { name : "John" , gender : "male" }
+* in this sample object "name" acts as a key , colon acts like assigning operator and after that "john" is the value for the key "name"
